@@ -1,0 +1,12 @@
+body {
+    display: grid;
+    grid-template-areas:
+        ". top top ."
+        ". bottom middle .";
+    grid-template-columns: 
+        auto
+        minmax(auto, calc(1200px * 0.5))
+        minmax(auto, calc(1200px * 0.5))
+        auto
+}
+
