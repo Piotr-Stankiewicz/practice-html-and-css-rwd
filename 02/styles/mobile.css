@@ -1,0 +1,23 @@
+body {
+    display: grid;
+    grid-template-areas:
+        "top"
+        "middle"
+        "bottom";
+    grid-template-rows: 
+        50vh
+        50vh
+        50vh;
+}
+
+.a {
+    grid-area: top;
+}
+
+.b {
+    grid-area: middle;
+}
+
+.c {
+    grid-area: bottom;
+}
