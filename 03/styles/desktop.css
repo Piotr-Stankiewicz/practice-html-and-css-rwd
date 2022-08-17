@@ -1,0 +1,11 @@
+body {
+    display: grid;
+    grid-template-areas: 
+        ". picture video ."
+        ". text text .";
+    grid-template-columns: 
+        auto
+        minmax(auto, calc(1400px * 0.5))
+        minmax(auto, calc(1400px * 0.5))
+        auto;
+}
